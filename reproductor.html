@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reproductor.css">
+	<script src="reproductor.js"></script>
+    <title>Reproductor Javascript</title>
+</head>
+<body>
+    <section class= "reproductor">
+        <audio class= "medio">
+            <source src="./Musica/Paloma Faith - Upside Down (Official Video)_128k.mp3">
+            <source src="./Musica/Paloma Faith - Gold (Madism Remix) Audio _128k.mp3">
+            <source src="./Musica/Paloma Faith - Guilty (Official Video)_128k.mp3">
+            <source src="./Musica/Paloma Faith - Never Tear Us Apart (Official Video)_128k.mp3">
+            <source src="./Musica/Sigma ft Paloma Faith - Changing (Official Video)_128k.mp3">
+            <source src="./Musica/Paloma Faith - Trouble with My Baby_128k.mp3">
+            <source src="./Musica/Paloma Faith - Loyal (Randolph Avenue Sessions)_128k.mp3">
+            <source src="./Musica/Paloma Faith - Can t Rely on You (Official Video)_128k.mp3">
+        </audio>
+        <video id="medio" width="720" height="400">
+			<source src="/Video.mp4">
+		</video>
+        <nav>
+            <div class= "botones">
+                <imput type="button" class= "reproducir" value=">">
+                <imput type="button" class= "silenciar" value="silencio">
+            </div>
+            <div class= "barra">
+                <div class="progreso"></div>
+            </div>
+            <div class="controles">
+                <imput type="range" class="volumen" min="0" max="1" step="0.1" value="0.6">
+            </div>
+            <div class="recuperar"></div>
+        </nav>
+    </section>
+</body>
+</html>
+
